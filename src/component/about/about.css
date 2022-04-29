@@ -1,0 +1,137 @@
+.about {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+  }
+  
+  .about-card {
+    width: 60%;
+    height: fit-content;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+  .about-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .about-right {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+  }
+
+  .experience{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin: auto;
+  }
+  .experience-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .experience-title h5{
+    margin: 0.5rem;
+  }
+  .experience-title h2{
+    margin-top: 0;
+    margin: 0.5rem;
+  }
+  .experience-title hr{
+    width: 20%;
+    margin: auto;
+    height: 3px;
+    border: none;
+    background-color: #59b256;
+  }
+  .experience-container{
+    margin-top: 1.5rem;
+    display: flex;
+  }
+  .experience-frontend,.experience-backend{
+    width: 50%;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    border: 1px solid #59b256;
+  }
+  .experience-container h3{
+    text-align: center;
+    color: #59b256;
+  }
+  .experience-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+  }
+  .experience-details{
+    display: flex;
+    gap: 0.8rem;
+  }
+  .experience-container hr{
+    width: 40%;
+    margin-bottom: 3rem;
+    margin: 0 auto;
+    height: 3px;
+    border: none;
+    border-radius: 1rem;
+    background-color: #000;
+  }
+  .experience-icon{
+    margin-top: 6px;
+    color: #59b256;
+  }
+   
+  
+  @media screen and (max-width:768px) {
+      .about{
+        flex-direction: column;
+        text-align: center;
+      }
+      
+      .about-left {
+        display: none;
+      }
+      .about-right {
+        width: 100%;
+      }
+      
+      .experience{
+        margin: 0 auto;
+      }
+      .experience-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+      }
+      .experience-content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+       align-items: center;
+      }
+      .experience-icon{
+        display: none;
+      }
+      .experience-details{
+        display: flex;
+        gap: 0.5rem;
+      }
+  }
