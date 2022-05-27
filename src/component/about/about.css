@@ -28,6 +28,7 @@
   
   .about-right {
     flex: 1;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 2rem;
@@ -62,37 +63,28 @@
   }
   .experience-container{
     margin-top: 1.5rem;
-    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
-  .experience-frontend,.experience-backend{
-    width: 50%;
+  .experience-frontend{
+    width: 90%;
     min-height: 30vh;
     padding: 1rem;
     margin: 1rem;
     border-radius: 2rem;
     border: 1px solid #59b256;
   }
-  .experience-container h3{
-    text-align: center;
-    color: #59b256;
-    
-  }
+  
   .experience-content{
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 1rem;
+    justify-items: center;
   }
   .experience-details{
     display: flex;
     gap: 0.8rem;
-  }
-  .experience-container hr{
-    width: 40%;
-    margin: 1rem auto;
-    height: 3px;
-    border: none;
-    border-radius: 1rem;
-    background-color: #000;
   }
   .experience-icon{
     margin-top: 6px;
@@ -121,11 +113,13 @@
         flex-direction: column;
         width: 100%;
         align-items: center;
+        margin-left: 1rem;
       }
       .experience-content{
         display: flex;
         flex-direction: column;
         width: 100%;
+        
        align-items: center;
       }
       .experience-icon{

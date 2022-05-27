@@ -1,5 +1,5 @@
 import "./about.css";
-import Abt from "../../img/about.JPG";
+import Abt from "../../img/about.jfif";
 import {BsPatchCheckFill} from "react-icons/bs"
 
 const About = () => {
@@ -17,14 +17,12 @@ const About = () => {
       <div className="about-right">
         <div className="experience">
         <div className="experience-title">
-        <h5>The Skills I Have</h5>
-        <h2>My Experience</h2>
+        <h5>Technologies I work with</h5>
+        <h2>The Skills I Have</h2>
         <hr />
         </div>
         <div className="experience-container">
           <div className="experience-frontend">
-            <h3>Frontend Development</h3>
-            <hr />
             <div className="experience-content">
               <article className="experience-details">
                 <BsPatchCheckFill className="experience-icon" />
@@ -37,7 +35,7 @@ const About = () => {
                 <BsPatchCheckFill className="experience-icon" />
                 <div>
                 <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experience</small>
                 </div>
               </article>
               <article className="experience-details">
@@ -47,20 +45,7 @@ const About = () => {
                 <small className="text-light">Experience</small>
                 </div>
               </article>
-              <article className="experience-details">
-                <BsPatchCheckFill className="experience-icon" />
-                <div>
-                <h4>ReactJS</h4>
-                <small className="text-light">Experience</small>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div className="experience-backend">
-          <h3>Backend Development</h3>
-          <hr />
-            <div className="experience-content">
-              <article className="experience-details">
+                <article className="experience-details">
                 <BsPatchCheckFill className="experience-icon" />
                 <div>
                 <h4>PHP</h4>
@@ -71,10 +56,10 @@ const About = () => {
                 <BsPatchCheckFill className="experience-icon" />
                 <div>
                 <h4>MySQL</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experience</small>
                 </div>
               </article>
-              </div>
+            </div>
           </div>
         </div>
         </div>

@@ -30,7 +30,7 @@ const Contact = () => {
                     <h1 className="cont-title">Let's Discuss Your Project</h1> 
                     <div className="cont-info">
                         <div className="cont-info-item">
-                            <img src={Phone} alt="" className="cont-icon" />+234 8026 52 7977
+                            <img src={Phone} alt="" className="cont-icon" />+234 803 244 2167
                         </div>
                         <div className="cont-info-item">
                             <img src={Email} alt="" className="cont-icon" />jacksoaustin001@gmail.com

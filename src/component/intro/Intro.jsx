@@ -2,8 +2,7 @@ import "./intro.css";
 import Me from "../../img/intro.png";
 import Typical from  "react-typical";
 import Resume from "../../img/cv.pdf"
-import {FaGithub, FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp} from 'react-icons/fa'
-import {SiGmail} from 'react-icons/si'
+import {FaGithub, FaFacebook, FaLinkedin, FaTwitter} from 'react-icons/fa'
 
 const Intro = () => {
   return (
@@ -11,12 +10,10 @@ const Intro = () => {
       <div className="intro-left">
         <div className="intro-left-wrapper">
           <div>
-          <a href="#"><FaGithub className="social-icon" size='1.3em' /></a>
-          <a href="#"><SiGmail className="social-icon" size='1.3em' /></a>
+          <a href="https://github.com/Kingjackson001"><FaGithub className="social-icon" size='1.3em' /></a>
           <a href="https://www.linkedin.com/mwlite/in/austine-jackson-a66841131"><FaLinkedin className="social-icon" size='1.3em' /></a>
-          <a href="#"><FaTwitter className="social-icon" size='1.3em' /></a>
+          <a href="https://twitter.com/AustinJack007?t=S9LzNHt3ZL8k-5qlQtVY1w&s=09"><FaTwitter className="social-icon" size='1.3em' /></a>
           <a href="https://www.facebook.com/profile.php?id=100077647488677"><FaFacebook className="social-icon" size='1.3em' /></a>
-          <a href="#"><FaInstagram className="social-icon" size='1.3em' /></a>
           </div>
         
           <h2 className="intro-intro">Hello, My name is</h2>
@@ -35,7 +32,7 @@ const Intro = () => {
           </p>
 
           <a href={Resume} download="austin_jackson cv.pdf" className="intro-cv">
-              <button className="btn">Get Resume</button>
+              <button className="btn" disabled>Get Resume</button>
             </a>
         </div>
         
