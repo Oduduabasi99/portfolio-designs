@@ -33,7 +33,7 @@ const Contact = () => {
                             <img src={Phone} alt="" className="cont-icon" />+234 803 244 2167
                         </div>
                         <div className="cont-info-item">
-                            <img src={Email} alt="" className="cont-icon" />jacksoaustin001@gmail.com
+                            <img src={Email} alt="" className="cont-icon" />jackoaustin001@gmail.com
                         </div>
                         <div className="cont-info-item">
                             <img src={Address} alt="" className="cont-icon" />Akwa Ibom, Nigeria
